@@ -36,6 +36,6 @@ chrome.contextMenus.onClicked.addListener((info, tab) => {
       height: 300    // 高さ
     });
 
-    // ※ storageへの保存とcontent.jsへのメッセージ送信は、もう不要なので削除！
+    
   }
 });
