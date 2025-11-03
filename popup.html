@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>テキストカウンター結果</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>📊 カウント結果</h1>
+    </header>
+    <main class="main-content">
+      <div class="result-item">
+        <span class="label">文字数</span>
+        <span class="value" id="charCount">---</span>
+      </div>
+      <div class="result-item">
+        <span class="label">単語数</span>
+        <span class="value" id="wordCount">---</span>
+      </div>
+      <div class="result-item">
+        <span class="label">行数</span>
+        <span class="value" id="lineCount">---</span>
+      </div>
+    </main>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
